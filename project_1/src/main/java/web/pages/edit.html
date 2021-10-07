@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>New Request</title>
+		<link rel='stylesheet' href="/styles/edit.css"/>
+	</head>
+	<body>
+		<div id='content'>
+			<form id="form">
+				<input type="text" name="short_description" placeholder="Short Description" required/><br/>
+				<textarea name="long_description" rows="5" cols="50" placeholder="Long Description" required></textarea> <br/>
+				<input type="number" data-type="currency" name="amount" placeholder="Amount ($)" min="0.01" step="0.01" required/><br/>
+				<div id='buttons'>
+					<input type="submit"/>
+					<button id="cancel_button">Cancel</button>
+				</div>
+			</form>
+		</div>
+		<script src='/scripts/edit.js'></script>
+	</body>
+</html>

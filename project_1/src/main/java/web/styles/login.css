@@ -1,0 +1,10 @@
+body {
+	background-color: antiquewhite;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+	text-align: center;
+}
+input {
+	margin: 5px
+}

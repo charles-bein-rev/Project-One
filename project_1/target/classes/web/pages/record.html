@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel='stylesheet' href="/styles/record.css"/>
+	</head>
+	<body>
+		<div id="page">
+			
+			<button id="back_button">Back</button>
+			<button id="logout_button">Logout</button>
+			<div id='content'>
+				<h1 id="short_description"></h1>
+				<h2 id="amount">Amount: $</h2>
+				<h2 id="long_description">Description: </h2>
+				<h2 id="status">Status: </h2>
+				<h2 id="requester">Requesting User: </h2>
+			</div>
+			<div id='admin_only' hidden>
+				<div id="admin_buttons" >
+					<button id='approve_button'>Approve</button>
+					<button id='deny_button'>Deny</button>
+				</div>
+			</div>
+		</div>
+		<script src='/scripts/record.js'></script>
+	</body>
+</html>

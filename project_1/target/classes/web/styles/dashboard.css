@@ -1,0 +1,29 @@
+body {
+	background-color: antiquewhite;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  margin-bottom: 5px;
+}
+
+.accepted {
+  background-color: rgba(0, 128, 0, 0.8);
+  color:white;
+}
+
+.rejected {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
+
+.base {
+  background-color: antiquewhite
+}
+
+table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
